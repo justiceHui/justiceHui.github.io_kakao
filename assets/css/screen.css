@@ -199,7 +199,7 @@ for small screen(<720px):
     height: 60px;
     margin: 0 0;
     padding: 0;
-    background: url(../images/pc/tech_logo.png) no-repeat center;
+    background: url("https://i.imgur.com/mBvbyVp.png") no-repeat center;
     background-size: 123px 21px;
 }
 
@@ -1199,7 +1199,7 @@ body.page-template {
         top: 0;
         height: 50px;
         margin: 0 auto;
-        background-image: url(../images/mo/tech_logo.png);
+        background-image: url("https://i.imgur.com/9NJsDo6.png");
         background-size: 99px 17px;
     }
 
@@ -1584,7 +1584,7 @@ body.page-template {
     }
 
     #logo {
-        background-image: url(../images/mo/tech_logo@2x.png);
+        background-image: url("https://i.imgur.com/RPQ3XzA.png");
     }
 
     #menu-toggle {
@@ -1674,7 +1674,7 @@ body.page-template {
     }
 
     #logo {
-        background-image: url(../images/mo/tech_logo@3x.png);
+        background-image: url("https://i.imgur.com/RPQ3XzA.png");
     }
 
     #menu-toggle {
