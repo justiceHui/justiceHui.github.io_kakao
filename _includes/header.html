@@ -6,7 +6,7 @@
         <span class="sr-only">Toggle Search Form</span>
     </button>
     <a id="logo" href="/">
-        <span class="sr-only">KakaoTech</span>
+        <span class="sr-only">JusticeHui</span>
     </a>
     <div id="search">
         <input id="search-input" type="search" placeholder="Search..." value="" />
@@ -14,10 +14,10 @@
     <ul class="search__results" id="results-container"></ul>
 
     <ul id="menu" class="nav">
-        <li class="{% if page.url != '/opensource/' and page.url != '/openapi/' and page.url != '/events/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
-        <li class="{% if page.url == '/opensource/' %} active {% endif %}"><a href="{{ base_path }}/opensource/">오픈소스</a></li>
-        <li class="{% if page.url == '/openapi/' %} active {% endif %}"><a href="{{ base_path }}/openapi/">오픈API</a></li>
-        <li class="{% if page.url == '/events/' %} active {% endif %}"><a href="{{ base_path }}/events/">기술행사</a></li>
+        <li class="{% if page.url != '/about/' and page.url != '/post/' and page.url != '/tags/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
+        <li class="{% if page.url == '/about/' %} active {% endif %}"><a href="{{ base_path }}/about/">자기소개</a></li>
+        <li class="{% if page.url == '/post/' %} active {% endif %}"><a href="{{ base_path }}/post/">글 분류</a></li>
+        <li class="{% if page.url == '/tags/' %} active {% endif %}"><a href="{{ base_path }}/tags/">태그</a></li>
     </ul>
 </div>
 <!-- Script pointing to jekyll-search.js -->
@@ -35,4 +35,3 @@
         exclude: ['Welcome']
     })
 </script><!-- #header -->
-
