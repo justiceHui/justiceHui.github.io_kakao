@@ -4,7 +4,6 @@ description: |
   justiceHui와 함께하는 즐거운 PS 생활
 baseurl: ''
 url: 'http://justiceHui.github.io/'
-timezone: Asia/Seoul
 
 repository: justiceHui/justiceHui.github.io
 
