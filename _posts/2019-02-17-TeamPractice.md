@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2019.02.17 COCI셋 연습"
+title:  "2019.02.16 COCI셋 연습"
 description: "with teacher's clone"
 date: 2019-02-17 22:38:00
 author : justiceHui
